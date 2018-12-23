@@ -1,0 +1,14 @@
+All code was written in a single Visual Studio 2017 project. 
+
+Requires OpenCV with contrib modules. 
+
+Requires Robust Local Optical Flow Implementation found at https://github.com/tsenst/RLOFLib.
+
+Screenshots of VS properties pages are included to show how the opencv and RLOF are added to the project (exact path names will vary but hopefully this gives the general idea). 
+
+Required data: KITTI or Middlebury Optical flow data found at http://www.cvlibs.net/datasets/kitti/eval_flow.php and http://vision.middlebury.edu/flow/  
+
+For the Odometry class the KITTI odometry data is required at http://www.cvlibs.net/datasets/kitti/eval_odometry.php 
+ 
+At several places in the project (indicated in the code) you must change paths names to point at the correct data. 
+
